@@ -6,11 +6,13 @@ import { Text } from 'react-native-paper';
 import Header from '../components/Header';
 import StudyCard from '../components/StudyCard';
 import TaskButton from '../components/TaskButton';
+import Usuarios from './Usuarios';
 
 export default function Home() {
   return (
     <ScrollView style={styles.background}>
       <View style={styles.container}>
+
         <Header />
 
         <StudyCard />
@@ -32,6 +34,9 @@ export default function Home() {
         </View>
 
         <TaskButton />
+
+        <Usuarios />
+
       </View>
     </ScrollView>
   );
